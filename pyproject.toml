@@ -1,0 +1,26 @@
+[project]
+name = "simplechatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "dhruvkanzaria-work", email = "dhruvkp401@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ddgs>=9.14.4",
+    "langchain-community>=0.4.2",
+    "langchain-groq>=1.1.3",
+    "langgraph>=1.2.10",
+    "langgraph-checkpoint-sqlite>=3.1.1",
+    "langsmith>=0.10.12",
+    "python-dotenv>=1.2.2",
+    "streamlit>=1.60.0",
+]
+
+[project.scripts]
+simplechatbot = "simplechatbot:main"
+
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"
