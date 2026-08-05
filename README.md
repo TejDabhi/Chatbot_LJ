@@ -118,7 +118,7 @@ AIML_Tracking-Excel/
 Run your application using:
 
 ```bash
-uv run <your_script>.py
+streamlit run streamlit_frontend.py
 ```
 
 Example:
